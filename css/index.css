@@ -336,3 +336,116 @@ body {
 .news__content .row:last-child{
     margin-top: 5rem;
 }
+
+#cyberModal{
+  width: 100%;
+}
+#cyberModal h5{
+  font-size: 29px;
+  color: #ff4f81;
+  font-weight: bold;
+}
+#cyberModal p{
+  font-style: 14px;
+  color: #777;
+  line-height: 1.8em;
+  padding: 20px 0;
+}
+#cyberModal .modal-dialog{
+  min-width: 600px;
+}
+
+footer{
+  background-color: rgba(0, 0, 0, 0.87);
+}
+.footer__form{
+  margin-top: 4rem;
+}
+.footer__top h3{
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff4f81;
+  letter-spacing: 1px;
+  margin-bottom: 1.5rem;
+}
+.footer__top p{
+  color: #8e8e8e;
+  line-height: 2em;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+.footer__top a{
+text-decoration: none;
+transition: all .5s;
+}
+.footer__top a:hover{
+  color: white;
+}
+.footer__link i{
+  color: #ff4f81;
+  margin-right: 1rem;
+}
+.footer__link a,.footer__contact a{
+  color: #8e8e8e;
+  font-size: 1rem;
+  line-height: 2px;
+  letter-spacing: 2px;
+}
+.footer__contact a{
+  padding-left: 10px;
+}
+.footer__link,.footer__contact{
+margin-bottom: 1rem;
+}
+.footer__contact i{
+width: 30px;
+height: 30px;
+border: 1px solid gainsboro;
+color: white;
+text-align: center;
+line-height: 30px;
+}
+.col-2{
+  color: #ff4f81;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.form-control{
+  padding: 5px;
+  border: 0;
+  border-radius: 0;
+  letter-spacing: 1px;
+  padding: 10px;
+  height: 3.5rem;
+}
+.footer__form button{
+  background-color: #ff4f81;
+  letter-spacing: 1px;
+  padding: 15px 30px;
+  color: white;
+  outline: none;
+  border-radius: 0;
+  transition: all .5s;
+}
+.footer__form button:hover{
+  background-color: #ff4f81b5;
+}
+.form-row{
+  padding-left: 80px;
+}
+.footer__bottom{
+  color: white;
+  letter-spacing: 1px;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.footer__bottom a{
+  text-decoration: none;
+  color: #ff4f81;
+  transition: all .5s;
+}
+.footer__bottom a:hover{
+  color: white;
+}
