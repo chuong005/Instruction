@@ -67,7 +67,9 @@ body {
 .header__left a {
   transition: all 0.5s;
 }
-
+#carouselCyber .carousel-control-next,#carouselCyber .carousel-control-prev{
+  z-index: 11;
+}
 .navInstruction a {
   color: black;
 }
@@ -94,6 +96,11 @@ body {
 }
 #navbarInstruction .nav-item:hover .nav-link {
   color: #ff4f81;
+}
+.navInstruction .navbar-toggler{
+  color: #ff4f81;
+  background-color: black;
+  border-radius: 0;
 }
 #navbarInstruction .nav-item::after {
   content: "";
@@ -138,7 +145,7 @@ body {
 }
 #carouselCyber .carousel-caption p {
   letter-spacing: 4px;
-  line-height: 1.8rem;
+  line-height: 1.8em;
   width: 80%;
   margin: 0 auto;
   margin-bottom: 25px;
@@ -449,3 +456,89 @@ line-height: 30px;
 .footer__bottom a:hover{
   color: white;
 }
+
+@media screen and (max-width:1199.98px) {
+  #carouselCyber .carousel-caption{
+    top: 50%;
+  }
+  #carouselCyber .carousel-caption h1{
+    font-size: 4vw;
+  }
+  #carouselCyber .carousel-caption p{
+    font-size: 1.6vw;
+    margin-bottom: 0.5em;
+  }
+  #carouselCyber .carousel-caption button{
+    font-size: 1.5vw;
+    padding: 0.8em 1em;
+  }
+}
+@media screen and (min-width:768px) and (max-width:992px) {
+  #navbarInstruction .nav-item{
+    margin: 0;
+    padding: 0 2px;
+  }  
+  #navbarInstruction .nav-link{
+      font-size: 12px;
+      padding: 5px;
+    }
+}
+@media screen and (max-width: 991.98px){
+    .navInstruction .navbar-brand p:first-child{
+      font-size: 3vw;
+    }
+    .navInstruction .navbar-brand p:last-child{
+      font-size: 1.5vw;
+    }
+}
+@media screen and (max-width:767.98px) {
+  #navbarInstruction .navbar-nav{
+    background-color: #eee;
+    text-align: center;
+  }
+  #navbarInstruction .dropdown-menu{
+    background-color: #e0e1e2;
+    border-color: #e0e1e2;
+    text-align: center;
+  }
+  #navbarInstruction .dropdown-item{
+    color: black;
+  }
+  .form-row {
+    font-size: 2vw;
+  }
+}
+@media screen and (max-width:575.98px) {
+  .form-row {
+    font-size: 0.5vw;
+    padding-left: 0;
+  }
+  .heading p{
+    padding: 0 15px;
+  }
+  .header__left a{
+    display: block;
+  }
+}
+@media screen and (max-width:415px) {
+  #carouselCyber{
+    height: 250px;
+  }
+  #carouselCyber .carousel-inner,#carouselCyber .carousel-item,#carouselCyber .carousel-item img{
+height: 100%;
+  }
+  #carouselCyber .carousel-item img{
+    object-fit: cover;
+  }
+}
+@media screen and (max-width:378.98px) {
+  .header__right{
+    width: 30%;
+    text-align: center;
+  }
+  .header__right a{
+    margin-bottom: 3px;
+  }
+}
+
+ 
